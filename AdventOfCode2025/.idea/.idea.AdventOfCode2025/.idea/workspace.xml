@@ -7,12 +7,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6f1a24fa-b420-4b94-b996-69c2e4d2a843" name="Changes" comment="minor rename and remove old methods">
-      <change afterPath="$PROJECT_DIR$/Day2/Day2.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day2/day2input.txt" afterDir="false" />
+    <list default="true" id="6f1a24fa-b420-4b94-b996-69c2e4d2a843" name="Changes" comment="beginning day 2">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.AdventOfCode2025/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.AdventOfCode2025/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AdventOfCode2025.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/AdventOfCode2025.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdventOfCode2025.Tests/obj/Debug/net9.0/AdventOfCode2025.Tests.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AdventOfCode2025.Tests/obj/Debug/net9.0/AdventOfCode2025.Tests.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdventOfCode2025.Tests/obj/Debug/net9.0/AdventOfCode2025.Tests.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/AdventOfCode2025.Tests/obj/Debug/net9.0/AdventOfCode2025.Tests.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdventOfCode2025.Tests/obj/Debug/net9.0/AdventOfCode2025.Tests.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/AdventOfCode2025.Tests/obj/Debug/net9.0/AdventOfCode2025.Tests.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day2/Day2.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Day2/Day2.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/net9.0/AdventOfCode2025.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net9.0/AdventOfCode2025.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/net9.0/AdventOfCode2025.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net9.0/AdventOfCode2025.AssemblyInfoInputs.cache" afterDir="false" />
     </list>
@@ -82,11 +82,24 @@
     <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/182ec85d25b779c7118bca2890ca95ae8dd32868c52272faee4a3a304f624b/Assert.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/6ef8e7d549f6bfb5b9eafaaa0ff48d8cbfc564f32be26323b5f60e63aef4dd1/SafeFileHandle.Windows.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../AdventOfCode2025.Tests/Day1/Day1Test.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://G:/Projects/AdventOfCode2025/AdventOfCode2025/Day1/Day1.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://G:/Projects/AdventOfCode2025/AdventOfCode2025/Day1/Day1.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://G:/Projects/AdventOfCode2025/AdventOfCode2025/Day2/Day2.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="ProjectColorInfo"><![CDATA[{
@@ -144,7 +157,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1765593406095</updated>
-      <workItem from="1765593407532" duration="24976000" />
+      <workItem from="1765593407532" duration="27294000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <option name="closed" value="true" />
@@ -194,7 +207,15 @@
       <option name="project" value="LOCAL" />
       <updated>1765777940585</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="beginning day 2">
+      <option name="closed" value="true" />
+      <created>1765779572688</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1765779572688</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -210,14 +231,41 @@
     <MESSAGE value="finally finished part 2" />
     <MESSAGE value="gitignore added" />
     <MESSAGE value="minor rename and remove old methods" />
-    <option name="LAST_COMMIT_MESSAGE" value="minor rename and remove old methods" />
+    <MESSAGE value="beginning day 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="beginning day 2" />
   </component>
   <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Day2/Day2.cs</url>
+          <line>15</line>
+          <properties documentPath="G:\Projects\AdventOfCode2025\AdventOfCode2025\Day2\Day2.cs" containingFunctionPresentation="Method 'Run'">
+            <startOffsets>
+              <option value="489" />
+            </startOffsets>
+            <endOffsets>
+              <option value="552" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
+      </breakpoints>
+      <default-breakpoints>
+        <breakpoint enabled="true" type="DotNet Exception Breakpoints" />
+      </default-breakpoints>
+    </breakpoint-manager>
     <pin-to-top-manager>
       <pinned-members>
+        <PinnedItemInfo parentTag="Frame#AdventOfCode2025.Day2.Day2.Run" memberName="endOfRange" />
         <PinnedItemInfo parentTag="Frame#AdventOfCode2025.Day1.Day1.Run" memberName="counter" />
         <PinnedItemInfo parentTag="Frame#AdventOfCode2025.Day1.Day1.Run" memberName="currentNumber" />
       </pinned-members>
     </pin-to-top-manager>
+    <watches-manager>
+      <configuration name="DotNetProject">
+        <watch expression="startOfRange" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>
