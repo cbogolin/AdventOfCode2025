@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "D3eA7SmTg48=",
+  "dgSpecHash": "30Jibag/vCM=",
   "success": true,
   "projectFilePath": "G:\\Projects\\AdventOfCode2025\\AdventOfCode2025\\AdventOfCode2025.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\chandler\\.nuget\\packages\\nunit\\4.4.0\\nunit.4.4.0.nupkg.sha512"
+  ],
   "logs": []
 }
