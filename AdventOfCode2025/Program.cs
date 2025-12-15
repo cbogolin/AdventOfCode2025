@@ -1,20 +1,27 @@
 ﻿// See https://aka.ms/new-console-template for more information
 
+using AdventOfCode2025;
 using AdventOfCode2025.Day1;
+using AdventOfCode2025.Day2;
 
-const AdventDay currentDay = AdventDay.Day1;
+const AdventDay currentDay = AdventDay.Day2;
 
 Console.WriteLine("Hello, World!");
 Console.WriteLine($"Day {currentDay}:");
+DayBase day = null;
 
 switch (currentDay)
 {
     case AdventDay.Day1:
     {
-        var day = new Day1();
+        day = new Day1();
         day.Run();
         break;
     }
+    case AdventDay.Day2:
+        day = new Day2();
+        day.Run();
+        break;
     default:
         break;
 }
